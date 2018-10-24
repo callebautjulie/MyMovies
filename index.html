@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <!-- custom css -->
     <link href="styles/custom.css" rel="stylesheet" type="text/css">  
+     <!-- Scroll CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -42,7 +44,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/yougetme1_blauw.jpg" alt="First slide">
+                    <img class="d-block w-100" src="images/yougetme1_blauw.jpg"alt="First slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="images/age_blauw.jpg" alt="Second slide">
@@ -76,7 +78,7 @@
             <!-- begin fotobox 1.1 -->
             <div class="col-md-3">
                 <div class="kader">
-                    <img class="kader" src="images/yougetme.jpg" alt="You Get Me">
+                    <img data-aos="fade-right" class="kader" src="images/yougetme.jpg" alt="You Get Me">
                 </div>
             </div>
             <!-- einde fotobox -->
@@ -113,7 +115,7 @@
             <!-- begin fotobox 1.2-->
             <div class="col-md-3">
                 <div class="kader">
-                    <img class="kader" src="images/ageof.jpg" alt="The age of adaline">
+                    <img data-aos="fade-left" class="kader" src="images/ageof.jpg" alt="The age of adaline">
                 </div>
             </div>
         </div>
@@ -125,7 +127,7 @@
             <!-- begin fotobox 1.3 -->
             <div class="col-md-3">
                 <div class="kader">
-                    <img class="kader" src="images/total1.jpg" alt="Total Recall">
+                    <img data-aos="fade-right" class="kader" src="images/total1.jpg" alt="Total Recall">
                 </div>
             </div>
             <!-- einde fotobox -->
@@ -164,7 +166,7 @@
             <!-- begin fotobox 1.4 -->
             <div class="col-md-3">
                 <div class="kader">
-                    <img class="kader" src="images/seven.jpg" alt="What happened to monday">
+                    <img data-aos="fade-left" class="kader" src="images/seven.jpg" alt="What happened to monday">
                 </div>
             </div>
             <!-- einde fotobox 1.4 -->
@@ -177,7 +179,7 @@
             <!-- begin fotobox 1.5 -->
             <div class="col-md-3">
                 <div class="kader">
-                    <img class="kader" src="images/brain.jpg" alt="Brain on fire">
+                    <img data-aos="fade-right" class="kader" src="images/brain.jpg" alt="Brain on fire">
                 </div>
             </div>
             <!-- einde fotobox -->
@@ -200,10 +202,21 @@
 
    
 
-</body>
+
   
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 110,
+        duration: 1100,
+    });
+  </script>
+
+</body>
 
 </html>
