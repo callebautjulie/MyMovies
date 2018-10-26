@@ -20,7 +20,7 @@ article {
     border-width: 3px;
     border-color: rgb(64,75,167);
     border-radius: 20px;
-    padding: 40px;
+    padding: 30px;
     box-shadow: 0px 0px 10px rgb(64,75,167);
 }
 
@@ -33,16 +33,11 @@ img{
     width: 100%;
 }
 
-h1,
-h2{
-    font-family: 'Kodchasan', sans-serif;
-    
-}
-
 h1 {
     text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 3.5rem;
+    font-family: 'Bungee Inline', sans-serif;
+    color: rgb(64,75,167);
 }
 
 h2 {
@@ -54,6 +49,12 @@ h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 300;
+}
+
+h4{
+    font-family:'Bungee', sans-serif;
+    font-size: 3rem;
+    color: black;
 }
 
 .titelrij {
