@@ -119,6 +119,18 @@ h4{
     right: 0;
   }
 
+  .footerrij{
+      background-color: rgb(64,75,167);
+      color: white;
+      margin-top: 50px;
+      padding-left: 30px; 
+      padding-top: 10px;
+  }
+
+  .logo{
+      height: 1em;
+  }
+  
 
 
 /* MEDIA QUERIES
